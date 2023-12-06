@@ -1,0 +1,51 @@
+1. install python & set the path-->python --version
+2. cmd->python >>>print('Hi') --> IDLE
+3. text editor-write code--save as .py ->cmd-> python file1.py
+4. IDE--> PyCharm--> Project--> python package--> python file
+5. variable
+    --> container to store the data (value)
+    --> a=10 --> create a variable with the name a and store
+                  the value 10
+6. name given by the user is called as identifier
+    rules
+     a. no keywords (35)
+     b. start with letter or _
+     c. contain a-z A-Z 0-9 _ 
+     d. no max limit
+     e. CS
+
+function--> all lower case at the end ()
+print()--> display the output in console
+id()--> to get the address stored in the variable
+type()--> to findout the data type of the variable
+
+DataTypes in python
+1. Numeric  Data Types
+   int		3
+   float	3.5
+   complex	3j
+
+2. text data type 
+   str (String)   ' '   " "  '''  '''
+
+3. boolean data type
+   bool    True False
+
+   (used in conditions & looping statements with logical operator)
+
+4. None Type --> None
+
+in python variable we can store any type of data 
+a variable can hold only one value at a time 
+i.e when we assign new value , old value will be deleted and new value will be stored
+
+------------------------
+1. to get fee details 
+     a. ping 9481787493
+     b. info@aksharatraining.com
+2. live   live +recodring   live + daily recording 
+
+     
+
+
+     

@@ -1,0 +1,120 @@
+list
+its a collection of data separated by comma with in []->[1,2,3]
+it can be homogeneous or heterogeneous
+it preserves insertion order -> ordered collection
+list will allow duplicate
+we can change the value of list - mutable
+sequential data type - supports index (subscript)
+
+Extracting required element from collection is called as slicing
+to find the number of elements present in the list we can use len()
+list index start from 0 to n-1  when n is the list size
+it support -ve index -1 to -n (right to left)
+
+list[startindex:endindex:step]
+
+startindex is inclusive but not the endindex 
+default step value is 1
+slice step cannot be zero
+
+list methods
+1. append
+2. insert
+3. index
+4. count
+5. remove
+6. pop
+7. clear
+8. reverse
+8. sort
+9. copy
+10. extend
+
+A. to check if the element is present in the list or not use 'in' ex: "API" in list1
+   it returns boolean (True or False)
+
+B. sorted -> #sort the content of list1 and store the result in list2 - list1 will not be modified
+
+C. min -> return smallest number in the list/collection
+
+D. max -> returns largest number in the list
+
+E. sum -> returns sum of all the numbers present in the list
+
+F. len
+
+G. type
+
+H. id
+
+I. print
+
+creating list
+ using [] -----> *   comprehension
+ using list()--> range() 
+
+
+TUPLE
+--read only list
+-->its a collection of data separated by comma with in ()->(1,2,3)
+it can be homogeneous or heterogeneous
+it preserves insertion order -> ordered collection
+tuple will allow duplicate
+sequential data type - supports index (subscript)
+we can't change the value of tuple - immutable
+
+
+tuple methods
+1. index
+2. count
+
+We can use
+print , id , len ,min, max,sum,sorted, in
+
+what are the diff b/w list & tuple
+
+list				tuple
+1.mutable			1. immutable
+2.has 10 methods		2. 2 methods (index & count)
+3.[]				3. ()
+4.list()			4.tuple()
+5.using *			5. no
+6.list comprehension		6. no
+
+SET
+its a collection of data separated by comma with in {}->{1,2,3}
+it can be homogeneous or heterogeneous
+it will not preserves insertion order -> unordered collection
+SET will NOT allow duplicate (one None is allowed)
+we can change the value of Set - mutable
+non-sequential data type - does not supports index (subscript)-->#'set' object is not subscriptable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

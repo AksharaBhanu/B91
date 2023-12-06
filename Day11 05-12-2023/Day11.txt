@@ -1,0 +1,51 @@
+methods
+1. lower
+2. upper
+3. swapcase
+3. capitalize
+4. title
+5. startswith
+6. endswith
+7. find
+8. isupper
+9. islower
+10. istitle
+11. isspace
+12. isalpha
+13. isnumeric
+14. isalnum
+15. count
+16. index
+17. replace
+18. split
+19. join
+20. format
+--------------------------------------------------------------
+int float complex
+bool (T F)
+NoneType None
+collectons
+  str
+  list	[]
+  tuple ()
+
+  set	{} set()
+  forzenset forzenset()
+  dict {k:v}
+---------------------------------------------------------------
+Operator---> symbol which used to perform specific operation
+operands--> input used to perform the operation
+Arithmetic operator
+1. +
+2. -
+3. *
+4. /
+5.//
+6. %
+7. ** 
+
+
+
+
+
+

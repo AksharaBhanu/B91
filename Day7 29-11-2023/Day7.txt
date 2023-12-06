@@ -1,0 +1,81 @@
+1. append(element)--> add the element at the end of the list
+2. insert(index,element)--> add the element at specified index and other elements will be shifted to right side
+			   if specified index is invalid it will insert the element at the end
+
+3. remove(x)--> remove the specified element by value
+                it is case-sensitive
+                it will remove only 1st occurance
+                if the element is not present we get error x is not in the list
+		we cant remove based on index 
+
+4. pop(index)--> remove the specified element by index and return the removed element
+		 remove only one element 
+		 if the element is not present we get error 'pop index out of range'
+
+5. count(x)--> returns the number of occurance of specified element ( 0--> not present)
+
+6. extend(new_list)--> add all the elements from new_list to the existing list at the end
+			if the input argument is not a collection then we get error ' object is not iterable'
+7. sort ---------> does not work for hetro list
+
+8. reverse
+
+7. clear()--> remove all the elements from the list --> empty list
+
+8. index(element,start,end)
+                  returns the index 1st occurance of the element
+                  its CS
+		  if the element is not present we get error
+		  by default it will start searching from index 0 , we can specify from which index to search
+9.copy()--> create a copy of the list 
+
+functions
+len()
+print()
+id()
+type()
+min()
+max()
+sum()
+sorted()
+
+diff b/w sort & sorted
+
+sort							sorted
+method							function
+modifies original list itself 				new sorted list will be created (original list remains unchanged)
+	
+
+diff ways of creating list
+1. using []--> [] or [1,2,3]   [1]*3
+2. using list()--> list()   list(range(n)) 
+3. list comprehension
+
+tuple is --> read only list (immutable)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

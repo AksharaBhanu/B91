@@ -1,0 +1,12 @@
+food=['idly','vade','dose']
+drinks=['coffee','tea','milk']
+food.extend(drinks)
+print(food)
+food.extend(['WATER'])
+print(food)
+food.extend(['WATER'])
+print(food)
+food.extend('KASHAYA')
+print(food)
+food.extend(10)
+print(food)

@@ -1,0 +1,77 @@
+Bhanu 9481787493 -save it and ping in whatsapp
+1.python-30-35 days
+2.selenium-30 days--> selenium + AFW + project
+3. 7pm to 8.30 or 9pm
+4. join using laptop 
+5. homework 
+6. 1-1  
+7. live --Zoom + recording mobile app
+https://aksharatraining.com/mobile-app/
+8. batch number is B91
+   in the app--> PYTHON91
+9.https://aksharatraining.com/python/
+10. Live or live + recording or live + daily recording
+
+11. mock interview , CV certificate
+12. Selenium- 12--> java python perl c#
+
+13. python --> H L coding language- english like
+language--> media --> give instructions to the computer
+ex:
+LLL-BL AL HLL--> Python Java C C++
+what is a computer--> 0 1--> binary language bits 
+8bits --> 1 byte -->
+000->0 
+001->1
+010-->2
+011->3
+100->4
+101-->5
+110-->6
+111->7--> ASCII --A B C
+
+My name is Mahesh--syntax
+My name is Bhanu.--> statement
+print("Bhanu")-->statement---> 01110010101010
+functionName(input)
+
+translator--> software which comvert from HLL to LLL
+process--> translation
+compiler
+interpreter
+
+how to install python
+https://www.python.org/downloads/
+download
+double click on the 'python-3.12.0-amd64.exe'
+click install now
+int cmd please run--->python --version
+
+my 1st python programme
+1. open the cmd
+2. type python
+3.>>>print("Bhanu")  press enter
+output--> Bhanu
+
+print is one of the built -in function /feature of the python
+we call it built in function, end with ()
+
+function(argument)
+print("Bhanu")
+
+function is print
+argument is "Bhanu" --> anythin within "" or '' is called as String
+print(10+20)---> 10+20   or 30
+
+How to store python code in a file and run it
+1. open text editor
+2. write python code
+3. save it as sample1.py file
+4. open cmd
+5. execute --> python f:/sample1.py
+
+Note: file name can be any valid name 
+while executing the file specify the path of the .py file
+
+
+

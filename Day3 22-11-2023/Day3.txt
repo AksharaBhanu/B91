@@ -1,0 +1,62 @@
+1. python -> HLL 
+2. interpreted
+3. 1980-1991
+4. latest version--> 3.12.0
+5. python is CS? yes
+6. IDLE--> Integrated Dev & Leraning environment
+7. IDE---> Integrated Dev environment---> Eclipse VS Intelij PyCharm...
+   
+    Dev does?
+     a. write code
+     b. compile/interpret
+     c. execution
+     d. debug
+     e. unit testing
+     f. report
+     g. SCM -- git hub
+8. PyCharm--> 
+https://www.jetbrains.com/pycharm/download/?section=windows
+
+install and open PyCharm IDE
+create a python project --> B91
+create a python package --> day3
+create a python file --> demo1.py
+execute it
+
+variable
+1. container or placeholder or memory location to store the data (value)
+2. in python we just specify variableName=value 
+     it will create a variable with the given name and store the given value under it
+3. we can change the value stored under the variable any number of times -hence the name 'variable'
+4. in python we cant create constants
+5. in python a variable can store any type of value (Data type)
+
+identifiers--> name given by the user to variable class method....
+rules to specify identifiers
+1. No keywords (35)
+2. should start with a letter or _  (we cant start with a digit)
+3. can contain a-z A-Z 0-9 _       ( no other special char or space is allowed)
+4. no max limit on length
+5. CS
+
+comment--> anythin which starts with #--ignored by python
+short cut--> ctrl /
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

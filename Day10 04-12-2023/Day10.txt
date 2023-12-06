@@ -1,0 +1,83 @@
+Dictionary
+1. collection of key-value pair--> {k:v,k2:v2...}
+2. homo/hetro
+3. values are stored under key (instead of index)
+4. keys are unique (CS) --DT--> int float complex bool str tuple frozenset None
+5. value can be duplicate-any type
+6. it is mutable
+7. no slicing
+
+functions
+1. len
+2. type
+3. id
+4. min
+5. max
+6. sum
+7. sorted
+
+methods
+1. get(key)--> returns the value (returns None if key is not present)
+2. keys()--> only keys
+3. values()--> only values
+4. items()--> group of key values
+5. setdefault(key,value)
+			key is present-->no change
+			key is not present-->add item (k+v)
+
+direct access
+read:
+value=dict[key]
+			key is present-->return the value
+			key is not present-->return error
+
+write:
+dict[key]='value'
+			key is not present--> add the item (k+v)
+                        key is present--> modify the value
+
+6. update --> merge the dict with other dict
+
+7. popitem()--> delete random item
+8. pop(key)--> delete item by key------> error if key is not present
+9. clear()--> delete all the items
+
+[]--> empty list
+()--> empty tuple
+{}--> empty dict
+set()--> empty set
+frozenset()--> empty frozen set
+
+list out all the collection data types in python
+list tuple dict set frozenset str
+
+String 
+any value with in quotes --> single or duble or 3 single quotes
+it is a collection data type (like list)
+supports slicing
+
+methods
+1. lower
+2. upper
+3. swapcase
+3. capitalize
+4. title
+5. startswith
+6. endswith
+7. find
+8. isupper
+9. islower
+10. istitle
+11. isspace
+12. isalpha
+13. isnumeric
+14. isalnum
+
+
+count()
+index()
+split()
+join()
+format()
+replace()
+

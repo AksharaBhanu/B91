@@ -1,0 +1,32 @@
+variable--> placeholder memory location to store the data/value
+do we declare variable in python - no direct intialization (internally it will create a variable)
+
+variable names
+no keywors starts with letter or _ contains a-z A-Z 0-9 _
+CS & no max limit
+
+35 keywords--> and or True False 
+
+i want create a variable but i dont want to store any value?
+a=None
+
+datatype--> kind of information type of data we are storing..
+1. number --> int float complex 
+2. boolean--> bool (True False)
+3. text data--> str
+4. sequential data types
+    a.list 
+	collection of elements (any type)
+        each elements are stored under a cell
+	each cell will have number --> index/subscript
+        index starts from 0
+	if list contains 10 elements then index will be 0 to 9
+        if list contains n elements then index will be 0 to n-1
+      
+        we can also use -ve index to read the element
+         if list contains 10 elements then index will be -1 to -10
+	 if list contains n elements then index will be -1 to -n
+	to find the number of elements in the list we can use len function
+        when we use index we can get only one element from the list
+        to get one or more elements we can use 'slicing'
+    

@@ -1,0 +1,10 @@
+food={'Idly','Roti','Poori','Dose'}
+print(food)
+food.discard('Idly')
+print(food)
+food.discard('Idly')
+print(food)
+food.remove('Roti')
+print(food)
+food.remove('Roti')
+print(food)

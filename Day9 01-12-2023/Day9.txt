@@ -1,0 +1,39 @@
+Set 
+unorderd collection of unique elements
+1.insertion order is not preserved (non-seq)
+2.no duplicates
+3.No index
+4.Homo or Hetro
+5.{}
+6.we can change the value of Set - mutable
+
+Set methods
+1.add
+2.remove  --> delete by value and throw error if element not present
+3.discard  --> delete by value and doesnot throw error if element not present
+4.pop-->  delete randomly
+5.clear()-->delete all the elements 
+6.copy()--> create another set
+7.update()--> merge 2 sets
+
+a={10,20}
+a=set()
+
+we convert from list to set , set to list , set to tuple.....
+frozenset--> set which is immutable we have only copy method
+
+Dictionary--> 
+orderd collection of Homo/hetro key-value pair elments
+values are stored under a key insteadof index
+key cant be duplicate but it is CS
+value can be anything (int float complex str bool list tuple set frozenset dict None)
+value can be duplicate
+if key is duplicate it will take latest value 
+key can be int float complex str bool None tuple forzenset
+(not allowed list set & dict cant be a key)
+
+
+
+
+
+

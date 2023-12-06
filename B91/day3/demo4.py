@@ -1,0 +1,12 @@
+emp='bhanu'
+emp1='ravi'
+# 1emp='surya'
+_emp='Surya'
+# my emp='bhanu'
+my_emp='bhanu'
+# salary$=100
+salary=100
+myThisMonthSalaryIsveryVeryLowhshdfhsdhfsdhfsdhfjkhsdfjkhsdjkfhksdhfkhsdjhfhsdjfhs=500
+emp=100
+Emp=300
+# and=400
