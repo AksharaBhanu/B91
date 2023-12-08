@@ -1,0 +1,51 @@
+operators
+1. Arithmetic --> + - * / // ** %
+2. assignment--> = += -= *= /= //= **= %=
+3. comparision--> > < >= <= == !=
+4. logical --> and or not
+5. membership--> 
+		in  
+		not in 
+6. identity--> 
+		is 
+		is not
+
+7. bitwise operator & | >> <<
+
+condition statements
+1. if
+		if condition:
+			if-body-true
+
+2. if-else
+		if condition:
+			if-body-true
+
+		else:
+			else-body-false
+3. if-elif
+
+		if condition1:
+			if-body-true
+
+		elif condition2:
+			if2-body-true
+		
+		elif condition3:
+			if3-body-true
+
+4. if-elif...-else
+		if condition1:
+			if-body-true
+
+		elif condition2:
+			if2-body-true
+		
+		elif condition3:
+			if3-body-true
+
+		else:
+			else-body-false
+
+5. nested if
+
