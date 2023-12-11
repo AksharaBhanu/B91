@@ -1,0 +1,9 @@
+1. if
+2. if-else
+3. if-elif....
+4. if-elif...-else
+5. nested condition statements
+#compare 2 number and print the msg
+#check if the given number is odd or even
+#write code to caluclate area of circle pi r r
+#WAP to convert fahreheit to celsius
