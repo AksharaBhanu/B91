@@ -1,0 +1,26 @@
+add only .txt file names  present in the list to new list
+add square of the numbers present in the list to new list
+add upper case value of the names  present in the list to new list
+Write a Python program to find the greatest common divisor (GCD) of two numbers.
+Write a Python program to print the Fibonacci series up to a given number n.
+Write a Python program to count the number of vowels in a given string.
+Write a Python program to find the second largest number in a list.
+Write a Python program to find the sum of all even numbers from 1 to 100.
+Write a Python program to count the occurrence of each element in a list and store it in a dictionary
+Write a Python program to remove duplicates from a list.
+
+      *
+     * *
+    * * *
+   * * * *
+
+* * * * * *
+*	  *
+*	  *
+*	  *
+* * * * * *
+
+      * * * * *
+     * * * * *
+    * * * * *
+   * * * * * 
