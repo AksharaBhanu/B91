@@ -1,3 +1,24 @@
+Nested for loops in Python allow you to execute a set of code repeatedly within another set of code. Here's an example of a nested for loop:
+
+
+for i in range(3):  # Outer loop
+    for j in range(2):  # Inner loop
+        print(f"Outer loop: {i}, Inner loop: {j}")
+
+This code will produce the following output:
+
+Outer loop: 0, Inner loop: 0
+Outer loop: 0, Inner loop: 1
+Outer loop: 1, Inner loop: 0
+Outer loop: 1, Inner loop: 1
+Outer loop: 2, Inner loop: 0
+Outer loop: 2, Inner loop: 1
+In this example, the outer loop runs three times (from 0 to 2), and 
+for each iteration of the outer loop, the inner loop runs twice (from 0 to 1), 
+resulting in six combinations of i and j values printed to the console.
+
+-----------------------------------------------------------------------------------------------------
+
 add only .txt file names  present in the list to new list
 add square of the numbers present in the list to new list
 add upper case value of the names  present in the list to new list
