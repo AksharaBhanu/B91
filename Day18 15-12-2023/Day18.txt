@@ -1,0 +1,79 @@
+Functions:
+reusable block of code
+
+1. reusable
+2. less lines
+3. less time
+4. easy maintance
+
+how to create a function?
+using 'def' keword followed by function name () :
+
+to execute the function we must call it
+ex: function_name()
+
+1st we should define the function then only we can call it (execute it)
+
+function name is case sensitive
+
+function created by us --> user defined functions
+function already present in python--> built-in function
+ print() len() type() id() min() max() sum()
+
+
+function can accept input --> parameter arguments
+parameter must be variable
+
+while calling the function we should ensure that number of arguments is matching with number of parameters
+
+arguments can be var or val
+
+by default all the parameters are mandatory 
+
+multiple parameters are seperated by ,
+
+by default it is 1-1 mapping between argument and parameter
+by default all the parameters are mandatory
+
+#java method overloading (not supported in python)
+add(int i,int j)
+{
+  
+}
+
+add(float i,float j)
+{
+
+}
+----------------------------------------------------------------
+def f1():--------call--> 1
+def f2(n):--------call--> 1
+
+----imp-------
+def f3(a,b):--------call--> f3(10,20) f3(a=10,b=20) f3(b=10,a=20)
+def f4(a,b=None):--------call--> 2  f4(10,20)  f4(10)
+def f5(a=None,b=None):--> call -> 4 f5() f4(10) f4(a=10) f4(b=10) f4(10,20) f4(a=10,b=20) f4(b=10,a=20)
+----imp end-------
+
+def f6(*a):--> call --> f6() f6(10) f6(10,20)....................... tuple
+def f7(**a):---> f7()  f7(a=10) f7(a=10,b=20)......  dict
+
+packing--. storing individual elements into a tuple 
+a=10,20,30
+
+unpacking
+x,y,z=a --. storing each element of the collection into a independent variable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
