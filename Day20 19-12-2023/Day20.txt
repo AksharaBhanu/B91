@@ -1,0 +1,25 @@
+how to create a function?
+
+def test():
+  pass
+
+
+def test(a,b,c):
+  pass
+
+def test(a,b=None):
+  pass
+
+
+def test(*a):
+  pass
+
+def test(**a):
+  pass
+
+
+return a value from the function
+using return keyword
+
+is it mandatory to rcv the value returned by the function
+do not write any executable code after return statement with in the same block
