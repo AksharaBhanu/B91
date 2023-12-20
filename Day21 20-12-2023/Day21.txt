@@ -1,0 +1,57 @@
+OOPS--->
+object--> example --> laptop car house chair table phone notebook
+pen......
+
+char.....
+functionality
+
+Pen
+look & feel--> cylinder body cap refil nib.... white black.....
+usage?
+1. write
+2. play
+3. paper weight
+4. scratching
+5. page marker
+6. poking
+8. tatoo
+
+chair
+look & feel--> legs wheels platform back support steel  
+
+usage
+1. sit
+2. relax
+3. sleep
+4. musical chair
+5. take items from sajja
+6. hit some one
+7. cloth dry
+8. item holder
+
+look & feel-->properties/char/attributes/variable/data member...
+usage--> functions /methods/procedures/member function
+
+class--> blue print or template
+object--> copy of the class or instance of the class
+
+how to create a class in python?
+class ClassName:
+   body....
+
+how to create an object of a class?
+var=ClassName()
+
+var--> ref variable
+ClassName()---> constructor -- built in special function of the class
+
+for one class we can create multiple objects
+multiple ref variable can point to same object
+a ref variable can point to only one obj at a time
+
+
+ 
+
+
+
+
