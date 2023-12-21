@@ -1,0 +1,38 @@
+class--> blue print or template
+object--> instance or copy of the class
+
+create a 'Student' class with name & id as attributes
+create 2 student objects and print the respective name and id
+
+
+self.variable--> instance variable belongs to object
+def m1(self):--> instance method belongs to object
+
+to access instance variable and method we use objectname(which has address) or self (inside the method)
+we can call one instance method from another instance method using self keyword
+
+instance variable
+1.created inside constructor
+2.belongs to object
+3. can be accessed using objectname/self
+4. each object will have its own copy
+
+class variable
+1.created inside class
+2.belongs to class
+3. can be accessed using class name/cls (objname/self)
+4. each object will share same common copy
+
+any method written inside class with self as 1st argument --> instance method
+1. can access all instance variable (using self)
+2. can access all class variable (classname or self)
+3. it can call other instance methods using self
+4. it can call other class methods using CN or self
+
+
+any method written inside class with cls as 1st argument --> class method
+1. method must have @classmethod (decorator)
+2. can access all class variable (classname or cls)
+3. it can call other class methods using CN or cls
+4. it cant access instance variable
+5. it cant call instance method
