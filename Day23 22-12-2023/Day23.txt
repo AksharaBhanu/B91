@@ -1,0 +1,47 @@
+1. A class is a blueprint created using the `class` keyword.
+2. An object is an instance of a class created by calling the constructor (which is usually named `__init__`).
+3. The constructor method is spelled `__init__`, dunder method/magic method
+4. `self` refers to the instance of the class and is used to access its attributes and methods.
+5. Variables present in an object are called attributes or data members.
+6. Functions defined within a class and accessed through objects are called methods or member functions.
+7. Instance variables belong to an object and are accessed using `self` and the object's name.
+8. Instance methods take `self` as their first argument and are called using the object's name.
+9. Instance variables are used to store object-specific information.
+10. To access and modify instance variables, you typically use instance methods.
+11. Class variables belong to the class and are shared across all instances of the class. They are accessed using the class name.
+12. Class methods are created using the `@classmethod` decorator, take `cls` as their first argument, and are called using the class name.
+12b. Class method cant call instance method (can call both classmethod & staticmethod)
+13. Class variables are used to store data shared among all instances of the class.
+14. To access and modify class variables, you typically use class methods.
+15. Every object has access to its respective class.
+15a. Instance methods can access both instance variables and class variables.
+15b. Instance methods can call both instance methods and class methods.
+
+
+if the variable is storing personal info---instance var
+if the variable is storing common info--> class var
+
+if the method is accessing only class var--> class method
+
+if the method is accessing only instance var--> instance method
+if the method is accessing both instance & class var--> instance method
+
+if the method is not accessing either instance or class var-->staticmethod
+
+how to create a static method --> using @staticmethod decorator
+static method --> do not take self/cls as argument
+how do u call static method?
+using class name (like class method)
+
+types of methods in python class
+instance method
+class method
+static method
+
+Access/Visibility modifiers in python
+1. public--can be accessed from anywhere		--> a=10
+2. private--can be accessed with in respective class 	--> __b=20
+
+
+process of binding data memeber with member function so that they behave as single unit --encapsulation
+
