@@ -1,0 +1,32 @@
+class--> blue print
+object --> instance of class
+member --> variables/methods present in the class
+constructor--> special method / dunder method --create object
+encapsulation-->binding data with method- single unit
+		hide the data --> private --> visibility 
+               2 visibility public & private _ _ a
+
+Inheritance:
+process of acquiring properties from one class to another is called as Inheritance
+
+Parent class / Base class/Super class
+
+Child class/ Derived class/Sub class
+
+How to inherit
+class ChildClassName(ParentClassName)
+
+what is not inherited ?
+private memeber are not inherited
+
+How to call parent class  constructor from child class constructor?
+super().__init__()
+ClassName.__init__(self)
+
+Can we write any code before calling arent class  constructor?
+yes
+
+
+
+
+ 
