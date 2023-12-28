@@ -1,0 +1,42 @@
+1. to check how is the lunch do i need to learn cooking
+2. to say if the song is good or not do i need to learn classic music
+3. to drive car do i need to do automobile eng
+
+abstraction -high level 
+to drive car?
+1. start the car
+2. turnoff the car
+3. steering the car
+4. clutch break ...
+5. gear
+
+SDLC--> S/w Dev Life Cycle
+RA
+FS
+Design
+dev
+testing
+deployment
+maintance
+
+What is an abstract class in Python?
+any class which inherits from ABC class
+
+What are the members allowrd in abstract class ?
+1. class variable
+2. instance variable
+3. instance method
+4. class method
+5. static method
+6. dunder method
+7. all the members can be public or private
+8. abstract method
+
+Note:abstract method is always instance method
+
+what is not possible is abstract class
+we cant create object of the abstract class
+
+what is not possible is concrete class
+it cant have any abstract method
+
