@@ -1,0 +1,43 @@
+class
+object
+encapsulation
+inheritance--> SLI MLI HI MPI HI
+polymorphism-->greek --> poly many morphism--forms
+2 types---> 
+1 .Compile time (static)--method overloading-not supported
+		what is method overloading
+		2 or more methods having
+		same name
+		dif arg list
+
+void m1(int i,int j)
+{
+ SOP(i+j)
+}
+void m1(float i,float j)
+{
+ SOP(i+j)
+}
+void m1(String i,String j)
+{
+ SOP(i+j)
+}
+
+		
+2. runtime (dynamic)--> method overriding
+   redefining the method in child class
+   
+   a. inheritance is mandatory
+   b. method name should be same
+   c. arg can be diff
+   d. body can be diff
+
+
+when do we override the method
+when we want to change existing behaviour of the method
+
+
+super most class in python 'object'
+
+how to print content of the user deined object instead of its hexvalue?
+override str dunder method
