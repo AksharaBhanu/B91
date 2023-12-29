@@ -1,0 +1,49 @@
+Unexpected situation is called as exception 
+in python there is no diff b/w error and exception
+
+ex:
+ZeroDivisionError
+ValueError
+
+when we get err/exception - it will display err msg and stops the execution
+
+to continue the execution we should handle --> exception handling
+
+How to handle exception?
+using try-except block
+
+what to write inside try block?
+--> risky code
+
+what to write inside except block?
+--> recovery code
+
+if there is any exception inside try block --> it will goto except block
+if there is no exception inside try block --> it will goto else block
+
+
+Normal termination--> execution reaches the end without any exception
+graceful termination-->  execution reaches the end even with exception
+abnormal termination--> execution ends ubruptly with an exception (unhandled)
+
+can we write try-except inside another try-except?
+yes
+
+
+can we write only try?
+No
+
+can we have try with multiple except?
+yes
+
+can we have try with only finally?
+yes
+
+Can we create our own exception class in python?
+yes create a child class for Exception
+
+How to generate exception?
+using raise keyword
+
+
+
