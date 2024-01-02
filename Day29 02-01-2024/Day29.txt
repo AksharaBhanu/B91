@@ -1,0 +1,50 @@
+A lambda function in Python is a small anonymous function that can take any number of arguments, but can only have one expression.
+ It's often used for short, simple functions that are convenient to define in a single line. The general syntax of a lambda function is:
+
+
+lambda arguments: expression
+
+Here's an example of a lambda function that adds two numbers:
+add = lambda x, y: x + y
+print(add(5, 3))  # Outputs: 8
+
+In this example, lambda x, y is the function definition with x and y as arguments,
+and x + y is the expression that gets evaluated and returned.
+
+Lambda functions are particularly useful when used with functions like filter, map, and sorted,
+as they allow for a concise way to operate on lists. Here are examples of each:
+
+Using lambda with filter:
+The filter function is used to select elements from a list based on a condition. The lambda function defines the condition.
+numbers = [1, 2, 3, 4, 5, 6]
+even_numbers = filter(lambda x: x % 2 == 0, numbers)
+print(list(even_numbers))  # Output: [2, 4, 6]
+In this example, filter selects only the even numbers from the list.
+
+Using lambda with map:
+The map function applies a function to every item in an iterable (like a list) and returns a new iterable.
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = map(lambda x: x**2, numbers)
+print(list(squared_numbers))  # Output: [1, 4, 9, 16, 25]
+Here, map applies a lambda function to square each number in the list.
+
+Using lambda with sorted:
+The sorted function sorts an iterable, and the lambda function can define a custom key to sort by.
+points = [(1, 2), (3, 1), (5, 0)]
+sorted_points = sorted(points, key=lambda x: x[1])
+print(sorted_points)  # Output: [(5, 0), (3, 1), (1, 2)]
+This sorts the list of tuples based on the second element of each tuple.
+
+----------------------------------------------------------------------------------------
+decorator is a design pattern that allows you to modify or enhance the behavior of a function or a method without changing its code. Essentially, decorators are functions that take another function as an argument, add some kind of functionality, and return another function. They are a very powerful and useful tool in Python because they allow for the extension of an existing function's behavior in a clean and readable way.
+
+A decorator in Python is a function that takes another function as its argument, and returns a new function, potentially altering its behavior
+
+Python Built-in Decorators
+@staticmethod
+@classmethod
+@property
+
+Pytest Decorators
+@pytest.fixture
+@pytest.mark.skip
